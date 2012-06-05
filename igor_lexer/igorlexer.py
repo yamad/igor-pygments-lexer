@@ -49,7 +49,7 @@ class IgorLexer(RegexLexer):
             (r'"', String, "string"),
             (r"'", Name.Variable, "liberal_name"),
             (IGOR_STD_ID, Name),
-            (r'!=|==|<=|>=|&&|\|\||&^|[-!~^*/+><&|?:$]', Operator),
+            (r'!=|==|<=|>=|&&|\|\||&^|[-!~^*/+><&|?:$%]', Operator),
              # numbers
             (r'\d*\.\d+([Ee][+-]?\d+)?', Number.Float),
             (r'0x[0-9a-f]+', Number.Hex),
