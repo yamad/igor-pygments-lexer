@@ -1,0 +1,15 @@
+Pygments Lexer for the Igor Pro Programming Language
+
+This module allows the pygments syntax highlighting engine to
+highlight Igor Pro procedure files (*.ipf).
+
+To install, use the command:
+  python setup.py install
+
+To use the lexer:
+  pygmentize -l igor -o <outfile> <infile>
+
+For more information see:
+http://www.wavemetrics.com
+http://pygments.org
+
