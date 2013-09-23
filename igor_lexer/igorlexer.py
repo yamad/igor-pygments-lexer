@@ -4,7 +4,7 @@ from pygments.lexer import RegexLexer, bygroups, include
 from pygments.token import \
     Comment, Text, String, Name, Keyword, Operator, Number, Punctuation
 
-import igorbuiltins as builtins
+from . import igorbuiltins as builtins
 
 IGOR_STD_ID = r'[A-Z][A-Z0-9_]{,30}(?i)' # Standard name (not a liberal name)
 IGOR_PARAMETER = r'\[?\s*'+IGOR_STD_ID+'\s*\]'

@@ -1,1 +1,1 @@
-from igorlexer import IgorLexer
+from .igorlexer import IgorLexer
